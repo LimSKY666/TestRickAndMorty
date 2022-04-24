@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		A3034952281407D0009284DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3034951281407D0009284DA /* AppDelegate.swift */; };
 		A3034954281407D0009284DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3034953281407D0009284DA /* SceneDelegate.swift */; };
-		A3034956281407D1009284DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3034955281407D1009284DA /* ViewController.swift */; };
 		A3034959281407D1009284DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3034957281407D1009284DA /* Main.storyboard */; };
 		A303495B281407D9009284DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A303495A281407D9009284DA /* Assets.xcassets */; };
 		A303495E281407D9009284DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A303495C281407D9009284DA /* LaunchScreen.storyboard */; };
+		A303496B28140C57009284DA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A303496A28140C57009284DA /* NetworkService.swift */; };
+		A303496D28140C95009284DA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A303496C28140C95009284DA /* Character.swift */; };
+		A303497128141206009284DA /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A303497028141206009284DA /* FirstScreenViewController.swift */; };
+		A303497328141216009284DA /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A303497228141216009284DA /* SecondScreenViewController.swift */; };
+		A30349782814134A009284DA /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30349762814134A009284DA /* CharacterTableViewCell.swift */; };
+		A30349792814134A009284DA /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30349772814134A009284DA /* CharacterTableViewCell.xib */; };
+		A3034981281452BF009284DA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A3034980281452BF009284DA /* Alamofire */; };
+		A3034984281480BE009284DA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3034983281480BE009284DA /* Location.swift */; };
+		A30349862814886C009284DA /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30349852814886C009284DA /* PageInfo.swift */; };
+		A303498928149155009284DA /* ListOfCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A303498828149155009284DA /* ListOfCharacters.swift */; };
+		A3B5096528160495007F5212 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A3B5096428160495007F5212 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A303494E281407D0009284DA /* TestRickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3034951281407D0009284DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3034953281407D0009284DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3034955281407D1009284DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3034958281407D1009284DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A303495A281407D9009284DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A303495D281407D9009284DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A303495F281407D9009284DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A303496A28140C57009284DA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A303496C28140C95009284DA /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A303497028141206009284DA /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		A303497228141216009284DA /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		A30349762814134A009284DA /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		A30349772814134A009284DA /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		A3034983281480BE009284DA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A30349852814886C009284DA /* PageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInfo.swift; sourceTree = "<group>"; };
+		A303498828149155009284DA /* ListOfCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B5096528160495007F5212 /* Kingfisher in Frameworks */,
+				A3034981281452BF009284DA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,79 @@
 		A3034950281407D0009284DA /* TestRickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				A3034951281407D0009284DA /* AppDelegate.swift */,
+				A303496928140BE1009284DA /* NetworkService */,
+				A3034975281412B6009284DA /* Presentation */,
+				A3034965281409C1009284DA /* Models */,
+				A303496828140A70009284DA /* Resources */,
 				A3034953281407D0009284DA /* SceneDelegate.swift */,
-				A3034955281407D1009284DA /* ViewController.swift */,
+				A3034951281407D0009284DA /* AppDelegate.swift */,
 				A3034957281407D1009284DA /* Main.storyboard */,
+			);
+			path = TestRickAndMorty;
+			sourceTree = "<group>";
+		};
+		A3034965281409C1009284DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A303496C28140C95009284DA /* Character.swift */,
+				A3034983281480BE009284DA /* Location.swift */,
+				A30349852814886C009284DA /* PageInfo.swift */,
+				A303498828149155009284DA /* ListOfCharacters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3034966281409D0009284DA /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A303497428141295009284DA /* Views */,
+				A303497028141206009284DA /* FirstScreenViewController.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		A303496728140A57009284DA /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A303497228141216009284DA /* SecondScreenViewController.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		A303496828140A70009284DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				A303495A281407D9009284DA /* Assets.xcassets */,
 				A303495C281407D9009284DA /* LaunchScreen.storyboard */,
 				A303495F281407D9009284DA /* Info.plist */,
 			);
-			path = TestRickAndMorty;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A303496928140BE1009284DA /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				A303496A28140C57009284DA /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		A303497428141295009284DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A30349762814134A009284DA /* CharacterTableViewCell.swift */,
+				A30349772814134A009284DA /* CharacterTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3034975281412B6009284DA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A3034966281409D0009284DA /* FirstScreen */,
+				A303496728140A57009284DA /* SecondScreen */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,10 @@
 			dependencies = (
 			);
 			name = TestRickAndMorty;
+			packageProductDependencies = (
+				A3034980281452BF009284DA /* Alamofire */,
+				A3B5096428160495007F5212 /* Kingfisher */,
+			);
 			productName = TestRickAndMorty;
 			productReference = A303494E281407D0009284DA /* TestRickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,10 @@
 				Base,
 			);
 			mainGroup = A3034945281407D0009284DA;
+			packageReferences = (
+				A303497F281452BF009284DA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A3B5096328160495007F5212 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A303494F281407D0009284DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +220,7 @@
 				A303495E281407D9009284DA /* LaunchScreen.storyboard in Resources */,
 				A303495B281407D9009284DA /* Assets.xcassets in Resources */,
 				A3034959281407D1009284DA /* Main.storyboard in Resources */,
+				A30349792814134A009284DA /* CharacterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3034956281407D1009284DA /* ViewController.swift in Sources */,
 				A3034952281407D0009284DA /* AppDelegate.swift in Sources */,
+				A303497128141206009284DA /* FirstScreenViewController.swift in Sources */,
+				A303496B28140C57009284DA /* NetworkService.swift in Sources */,
+				A303497328141216009284DA /* SecondScreenViewController.swift in Sources */,
 				A3034954281407D0009284DA /* SceneDelegate.swift in Sources */,
+				A30349862814886C009284DA /* PageInfo.swift in Sources */,
+				A303498928149155009284DA /* ListOfCharacters.swift in Sources */,
+				A3034984281480BE009284DA /* Location.swift in Sources */,
+				A303496D28140C95009284DA /* Character.swift in Sources */,
+				A30349782814134A009284DA /* CharacterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +389,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SB3B62C7R7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestRickAndMorty/Info.plist;
+				INFOPLIST_FILE = TestRickAndMorty/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +417,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SB3B62C7R7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestRickAndMorty/Info.plist;
+				INFOPLIST_FILE = TestRickAndMorty/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +458,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A303497F281452BF009284DA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A3B5096328160495007F5212 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3034980281452BF009284DA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A303497F281452BF009284DA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A3B5096428160495007F5212 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3B5096328160495007F5212 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3034946281407D0009284DA /* Project object */;
 }
